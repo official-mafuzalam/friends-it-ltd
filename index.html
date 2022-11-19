@@ -168,12 +168,18 @@
           <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
           <label for="floatingInput">Email address</label>
         </div>
-        <button class="btn btn-primary">Submit</button>
+        <button id="btn-subscribe" class="btn btn-primary">Submit</button>
       </div>
     </div>
   </div>
 
 
+
+  <script>
+    document.getElementById("btn-subscribe").addEventListener("click", function(){
+      alert("Thanks for stay with us.");
+    })
+  </script>
 
 
 
