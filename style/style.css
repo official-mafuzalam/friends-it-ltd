@@ -1,0 +1,27 @@
+.container {
+    margin-bottom: 60px
+}
+
+.carousel-itm {
+    margin-top: 80px;
+    background-color: #feeae9;
+    border-radius: 10px;
+    padding: 20px 80px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+#contact {
+    height: 300px;
+    background-color: #feeae9;
+    border-radius: 10px;
+    padding: 80px;
+}
+
+.service-img{
+    height: 300px;
+}
