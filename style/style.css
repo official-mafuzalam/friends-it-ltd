@@ -17,11 +17,49 @@
 
 #contact {
     height: 300px;
-    background-color: #feeae9;
     border-radius: 10px;
+    background: #212529;
     padding: 80px;
 }
 
-.service-img{
+.service-img {
     height: 300px;
 }
+
+/*  */
+
+/* body {
+    background: #2a2e32;
+} */
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.form-control {
+    color: #feeae9;
+    background: #98c2ef;
+    background: #545454;
+    border-color: #545454;
+}
+
+.form-control:focus {
+    background: #98c2ef;
+}
+
+
+
+/* ==========================================
+      CUSTOM UTILS CLASSES
+    ========================================== */
