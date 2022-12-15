@@ -49,7 +49,7 @@ a:focus {
 
 .form-control {
     color: #feeae9;
-    background: #98c2ef;
+    /* background: #98c2ef; */
     background: #545454;
     border-color: #545454;
 }
