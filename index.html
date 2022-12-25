@@ -15,8 +15,8 @@
 </head>
 
 <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #91D8E4;">
+  <!-- <div class="container">
+    <nav class="navbar navbar-expand-lg" style="background-color: #91D8E4;">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="images/icon.png" alt="">
@@ -40,8 +40,59 @@
         </form>
       </div>
     </nav>
-  </div>
+  </div> -->
 
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/icon.png" alt="Logo" width="150" height="50" class="d-inline-block align-text-top">
+          </a>
+        </div>
+      </nav>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="blog.html">Blog</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--  -->
+  <!--  -->
   <div class="container carousel-itm">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -97,7 +148,7 @@
     <h2 class="text-center">Our Projects</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
-        <div class="card">
+        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
           <img src="images/projects/app_1.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Daily Islam: বাংলা</h5>
@@ -115,7 +166,7 @@
     <h2 class="text-center">Our Service</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
-        <div class="card">
+        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
           <img src="images/service/mobile.png" class="card-img-top service-img" alt="...">
           <div class="card-body">
             <h5 class="card-title">Mobile Apps Development</h5>
@@ -126,7 +177,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
           <img src="images/service/soft.png" class="card-img-top service-img" alt="...">
           <div class="card-body">
             <h5 class="card-title">Software Development</h5>
@@ -137,7 +188,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
           <img src="images/service/web.png" class="card-img-top service-img" alt="...">
           <div class="card-body">
             <h5 class="card-title">Web Development</h5>
@@ -191,7 +242,7 @@
             <p class="small text-muted">Subscribe for daily sells & discount update .</p>
             <form action="#">
               <div class="input-group mb-3">
-                <input class="form-control" name="email" type="email" placeholder="Recipient's email"
+                <input class="form-control me-2" name="email" type="email" placeholder="Recipient's email"
                   aria-label="Recipient's username" aria-describedby="button-addon2" required>
                 <input class="btn btn-success" type="submit" id="btn-subscribe" value="Submit">
               </div>

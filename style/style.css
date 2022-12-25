@@ -1,18 +1,12 @@
 .container {
-    margin-bottom: 60px
+    margin-bottom: 10px
 }
 
 .carousel-itm {
-    margin-top: 80px;
+    margin-top: 10px;
     background-color: #BFEAF5;
     border-radius: 10px;
     padding: 20px 80px;
-}
-
-.card {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
 }
 
 #contact {
@@ -25,12 +19,6 @@
 .service-img {
     height: 300px;
 }
-
-/*  */
-
-/* body {
-    background: #2a2e32;
-} */
 
 .text-small {
     font-size: 0.9rem;
@@ -50,17 +38,5 @@ a:focus {
 
 .form-control {
     color: #feeae9;
-    /* background: #98c2ef; */
-    background: #545454;
     border-color: #545454;
 }
-
-.form-control:focus {
-    background: #596573;
-}
-
-
-
-/* ==========================================
-      CUSTOM UTILS CLASSES
-    ========================================== */
